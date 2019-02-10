@@ -65,6 +65,15 @@
     "opera": "32",
     "electron": "0.35"
   },
+  "es7.array.flat-map": {
+    "chrome": "69",
+    "firefox": "62",
+    "safari": "12",
+    "node": "11.0",
+    "ios": "12",
+    "opera": "56",
+    "electron": "4"
+  },
   "es6.array.for-each": {
     "chrome": "5",
     "opera": "10.10",
@@ -215,7 +224,7 @@
     "edge": "12",
     "firefox": "5",
     "safari": "10.1",
-    "node": "10.13",
+    "node": "10.0",
     "ie": "9",
     "ios": "10.3",
     "electron": "3"
@@ -859,7 +868,7 @@
     "edge": "18",
     "firefox": "58",
     "safari": "11.1",
-    "node": "10.13",
+    "node": "10.0",
     "ios": "11.3",
     "opera": "50",
     "electron": "3"
@@ -1080,7 +1089,7 @@
     "chrome": "63",
     "firefox": "57",
     "safari": "12",
-    "node": "10.13",
+    "node": "10.0",
     "ios": "12",
     "opera": "50",
     "electron": "3"
@@ -1341,6 +1350,24 @@
     "phantom": "2",
     "electron": "1.1"
   },
+  "es7.string.trim-left": {
+    "chrome": "66",
+    "firefox": "61",
+    "safari": "12",
+    "node": "10.0",
+    "ios": "12",
+    "opera": "53",
+    "electron": "3"
+  },
+  "es7.string.trim-right": {
+    "chrome": "66",
+    "firefox": "61",
+    "safari": "12",
+    "node": "10.0",
+    "ios": "12",
+    "opera": "53",
+    "electron": "3"
+  },
   "es6.typed.array-buffer": {
     "chrome": "51",
     "edge": "13",
@@ -1473,13 +1500,5 @@
     "ios": "9",
     "opera": "38",
     "electron": "1.2"
-  },
-  "es7.array.flat-map": {
-    "chrome": "69",
-    "firefox": "62",
-    "safari": "12",
-    "ios": "12",
-    "opera": "56",
-    "electron": "4"
   }
 }
