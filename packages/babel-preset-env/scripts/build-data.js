@@ -162,22 +162,16 @@ const getLowestImplementedVersion = ({ features }, env) => {
       );
     })
     .reduce((result, test) => {
-      const isBuiltIn =
-        test.category === "built-ins" ||
-        test.category === "built-in extensions";
-
       if (!test.subtests) {
         result.push({
           name: test.name,
           res: test.res,
-          isBuiltIn,
         });
       } else {
         test.subtests.forEach(subtest =>
           result.push({
             name: `${test.name}/${subtest.name}`,
             res: subtest.res,
-            isBuiltIn,
           })
         );
       }
