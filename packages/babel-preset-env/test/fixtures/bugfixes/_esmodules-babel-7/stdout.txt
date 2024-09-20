@@ -17,7 +17,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { android, chrome < 112, edge < 112, firefox < 116, ios, node < 20, opera < 98, opera_mobile < 75, safari, samsung }
+  transform-unicode-sets-regex { android, chrome, edge, firefox, ios, node, opera, opera_mobile, safari, samsung }
   transform-class-static-block { android, chrome < 94, edge < 94, firefox < 93, ios < 16.4, node < 16.11, opera < 80, safari < 16.4, samsung < 17 }
   transform-private-property-in-object { android, chrome < 91, edge < 91, firefox < 90, ios < 15, node < 16.9, opera < 77, safari < 15, samsung < 16 }
   transform-class-properties { android, chrome < 74, edge < 79, firefox < 90, ios < 14.5, opera < 62, safari < 14.1, samsung < 11 }
@@ -31,7 +31,7 @@ Using plugins:
   transform-async-generator-functions { android, chrome < 63, edge < 79, ios < 12, opera < 50, safari < 12 }
   transform-object-rest-spread { edge < 79, ios < 11.3, safari < 11.1 }
   transform-dotall-regex { android, chrome < 62, edge < 79, firefox < 78, ios < 11.3, opera < 49, safari < 11.1 }
-  transform-unicode-property-regex { android, chrome < 64, edge < 79, firefox < 78, ios < 11.3, opera < 51, safari < 11.1, samsung < 9 }
+  transform-unicode-property-regex { android, chrome, edge, firefox, ios, node, opera, opera_mobile, safari, samsung }
   transform-named-capturing-groups-regex { android, chrome < 64, edge < 79, firefox < 78, ios < 11.3, opera < 51, safari < 11.1, samsung < 9 }
   transform-unicode-regex { ios < 12, safari < 12 }
   transform-export-namespace-from { android < 72, chrome < 72, edge < 79, firefox < 80, ios < 14.5, opera < 60, safari < 14.1, samsung < 11.0 }

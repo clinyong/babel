@@ -8,7 +8,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { node < 20 }
+  transform-unicode-sets-regex { node }
   transform-class-static-block { node < 16.11 }
   transform-private-property-in-object { node < 16.9 }
   transform-class-properties { node < 12 }
@@ -22,7 +22,7 @@ Using plugins:
   transform-async-generator-functions { node < 10 }
   transform-object-rest-spread { node < 8.3 }
   transform-dotall-regex { node < 8.10 }
-  transform-unicode-property-regex { node < 10 }
+  transform-unicode-property-regex { node }
   transform-named-capturing-groups-regex { node < 10 }
   transform-async-to-generator { node < 7.6 }
   transform-exponentiation-operator { node < 7 }

@@ -8,7 +8,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { chrome < 112 }
+  transform-unicode-sets-regex { chrome }
   transform-class-static-block { chrome < 94 }
   transform-private-property-in-object { chrome < 91 }
   syntax-class-properties
@@ -20,6 +20,7 @@ Using plugins:
   syntax-optional-catch-binding
   syntax-async-generators
   syntax-object-rest-spread
+  transform-unicode-property-regex { chrome }
   transform-modules-commonjs
   transform-dynamic-import
   transform-export-namespace-from { }

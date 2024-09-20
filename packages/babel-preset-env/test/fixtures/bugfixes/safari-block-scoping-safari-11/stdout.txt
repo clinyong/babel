@@ -22,7 +22,7 @@ Using plugins:
   transform-async-generator-functions { safari < 12 }
   transform-object-rest-spread { safari < 11.1 }
   transform-dotall-regex { safari < 11.1 }
-  transform-unicode-property-regex { safari < 11.1 }
+  transform-unicode-property-regex { safari }
   transform-named-capturing-groups-regex { safari < 11.1 }
   transform-unicode-regex { safari < 12 }
   transform-export-namespace-from { safari < 14.1 }

@@ -1,14 +1,5 @@
 {
-  "transform-unicode-sets-regex": {
-    "chrome": "112",
-    "opera": "98",
-    "edge": "112",
-    "firefox": "116",
-    "node": "20",
-    "deno": "1.32",
-    "opera_mobile": "75",
-    "electron": "24.0"
-  },
+  "transform-unicode-sets-regex": {},
   "transform-class-static-block": {
     "chrome": "94",
     "opera": "80",
@@ -348,35 +339,12 @@
     "deno": "1",
     "ios": "11.3",
     "samsung": "8",
+    "rhino": "1.7.15",
     "opera_mobile": "46",
     "electron": "3.0"
   },
-  "transform-unicode-property-regex": {
-    "chrome": "64",
-    "opera": "51",
-    "edge": "79",
-    "firefox": "78",
-    "safari": "11.1",
-    "node": "10",
-    "deno": "1",
-    "ios": "11.3",
-    "samsung": "9",
-    "opera_mobile": "47",
-    "electron": "3.0"
-  },
-  "proposal-unicode-property-regex": {
-    "chrome": "64",
-    "opera": "51",
-    "edge": "79",
-    "firefox": "78",
-    "safari": "11.1",
-    "node": "10",
-    "deno": "1",
-    "ios": "11.3",
-    "samsung": "9",
-    "opera_mobile": "47",
-    "electron": "3.0"
-  },
+  "transform-unicode-property-regex": {},
+  "proposal-unicode-property-regex": {},
   "transform-named-capturing-groups-regex": {
     "chrome": "64",
     "opera": "51",
@@ -440,6 +408,7 @@
     "deno": "1",
     "ios": "9",
     "samsung": "4",
+    "rhino": "1.7.15",
     "opera_mobile": "32",
     "electron": "0.30"
   },
@@ -573,6 +542,7 @@
     "deno": "1",
     "ios": "10",
     "samsung": "5",
+    "rhino": "1.7.15",
     "opera_mobile": "36",
     "electron": "0.37"
   },
@@ -586,6 +556,7 @@
     "deno": "1",
     "ios": "9",
     "samsung": "4",
+    "rhino": "1.7.15",
     "opera_mobile": "32",
     "electron": "0.30"
   },

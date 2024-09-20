@@ -8,7 +8,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { node < 20 }
+  transform-unicode-sets-regex { node }
   transform-class-static-block { node < 16.11 }
   transform-private-property-in-object { node < 16.9 }
   syntax-class-properties
@@ -21,6 +21,7 @@ Using plugins:
   syntax-optional-catch-binding
   syntax-async-generators
   syntax-object-rest-spread
+  transform-unicode-property-regex { node }
   transform-export-namespace-from { node < 13.2 }
   transform-modules-commonjs
   transform-dynamic-import

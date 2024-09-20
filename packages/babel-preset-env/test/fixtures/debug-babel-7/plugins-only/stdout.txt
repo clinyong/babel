@@ -9,7 +9,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { firefox < 116, node < 20 }
+  transform-unicode-sets-regex { firefox, node }
   transform-class-static-block { firefox < 93, node < 16.11 }
   transform-private-property-in-object { firefox < 90, node < 16.9 }
   transform-class-properties { firefox < 90, node < 12 }
@@ -23,7 +23,7 @@ Using plugins:
   transform-async-generator-functions { firefox < 57, node < 10 }
   transform-object-rest-spread { firefox < 55, node < 8.3 }
   transform-dotall-regex { firefox < 78, node < 8.10 }
-  transform-unicode-property-regex { firefox < 78, node < 10 }
+  transform-unicode-property-regex { firefox, node }
   transform-named-capturing-groups-regex { firefox < 78, node < 10 }
   transform-literals { firefox < 53 }
   transform-function-name { firefox < 53 }

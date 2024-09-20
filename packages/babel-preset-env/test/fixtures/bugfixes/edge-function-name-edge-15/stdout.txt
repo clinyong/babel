@@ -8,7 +8,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { edge < 112 }
+  transform-unicode-sets-regex { edge }
   transform-class-static-block { edge < 94 }
   transform-private-property-in-object { edge < 91 }
   transform-class-properties { edge < 79 }
@@ -22,7 +22,7 @@ Using plugins:
   transform-async-generator-functions { edge < 79 }
   transform-object-rest-spread { edge < 79 }
   transform-dotall-regex { edge < 79 }
-  transform-unicode-property-regex { edge < 79 }
+  transform-unicode-property-regex { edge }
   transform-named-capturing-groups-regex { edge < 79 }
   transform-export-namespace-from { edge < 79 }
   bugfix/transform-edge-default-parameters { edge < 18 }

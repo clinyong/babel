@@ -10,7 +10,7 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  transform-unicode-sets-regex { chrome < 112, ie, node < 20 }
+  transform-unicode-sets-regex { chrome, ie, node }
   transform-class-static-block { chrome < 94, ie, node < 16.11 }
   transform-private-property-in-object { chrome < 91, ie, node < 16.9 }
   transform-class-properties { chrome < 74, ie, node < 12 }
@@ -25,7 +25,7 @@ Using plugins:
   transform-async-generator-functions { chrome < 63, ie, node < 10 }
   transform-object-rest-spread { chrome < 60, ie, node < 8.3 }
   transform-dotall-regex { chrome < 62, ie, node < 8.10 }
-  transform-unicode-property-regex { chrome < 64, ie, node < 10 }
+  transform-unicode-property-regex { chrome, ie, node }
   transform-named-capturing-groups-regex { chrome < 64, ie, node < 10 }
   transform-async-to-generator { chrome < 55, ie, node < 7.6 }
   transform-exponentiation-operator { ie, node < 7 }
