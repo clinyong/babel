@@ -1,1 +1,62 @@
-SyntaxError: <CWD>/test.js: Missing semicolon. (2:10)
+SyntaxError: Missing semicolon. (2:10)
+
+  1 | arr.map(function () {
+> 2 |   return $]!;
+    |           ^
+  3 | });
+    at constructor (file://<ROOTDIR>/packages/babel-parser/lib/parse-error.js:32:19)
+    at JSXParserMixin.raise (file://<ROOTDIR>/packages/babel-parser/lib/tokenizer/index.js:952:19)
+    at JSXParserMixin.semicolon (file://<ROOTDIR>/packages/babel-parser/lib/parser/util.js:74:10)
+    at JSXParserMixin.parseReturnStatement (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:656:12)
+    at JSXParserMixin.parseStatementContent (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:313:21)
+    at JSXParserMixin.parseStatementLike (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:282:17)
+    at JSXParserMixin.parseStatementListItem (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:262:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:829:61)
+    at JSXParserMixin.parseBlockBody (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:822:10)
+    at JSXParserMixin.parseBlock (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:810:10)
+    at JSXParserMixin.parseFunctionBody (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:1381:24)
+    at JSXParserMixin.parseFunctionBodyAndFinish (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:1367:10)
+    at file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:954:12
+    at JSXParserMixin.withSmartMixTopicForbiddingContext (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:1675:14)
+    at JSXParserMixin.parseFunction (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:953:10)
+    at JSXParserMixin.parseFunctionOrFunctionSent (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:847:17)
+    at JSXParserMixin.parseExprAtom (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:626:21)
+    at JSXParserMixin.parseExprAtom (file://<ROOTDIR>/packages/babel-parser/lib/plugins/jsx/index.js:370:20)
+    at JSXParserMixin.parseExprSubscripts (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:358:23)
+    at JSXParserMixin.parseUpdate (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:343:21)
+    at JSXParserMixin.parseMaybeUnary (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:323:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:177:61)
+    at JSXParserMixin.parseExprOps (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:182:23)
+    at JSXParserMixin.parseMaybeConditional (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:159:23)
+    at JSXParserMixin.parseMaybeAssign (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:112:21)
+    at file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:81:39
+    at JSXParserMixin.allowInAnd (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:1698:12)
+    at JSXParserMixin.parseMaybeAssignAllowIn (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:81:17)
+    at JSXParserMixin.parseExprListItem (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:1456:18)
+    at JSXParserMixin.parseCallExpressionArguments (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:527:22)
+    at JSXParserMixin.parseCoverCallAndAsyncArrowHead (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:461:29)
+    at JSXParserMixin.parseSubscript (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:398:19)
+    at JSXParserMixin.parseSubscripts (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:371:19)
+    at JSXParserMixin.parseExprSubscripts (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:362:17)
+    at JSXParserMixin.parseUpdate (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:343:21)
+    at JSXParserMixin.parseMaybeUnary (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:323:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:177:61)
+    at JSXParserMixin.parseExprOps (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:182:23)
+    at JSXParserMixin.parseMaybeConditional (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:159:23)
+    at JSXParserMixin.parseMaybeAssign (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:112:21)
+    at JSXParserMixin.parseExpressionBase (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:65:23)
+    at file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:61:39
+    at JSXParserMixin.allowInAnd (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:1693:16)
+    at JSXParserMixin.parseExpression (file://<ROOTDIR>/packages/babel-parser/lib/parser/expression.js:61:17)
+    at JSXParserMixin.parseStatementContent (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:409:23)
+    at JSXParserMixin.parseStatementLike (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:282:17)
+    at JSXParserMixin.parseModuleItem (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:259:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:829:36)
+    at JSXParserMixin.parseBlockBody (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:822:10)
+    at JSXParserMixin.parseProgram (file://<ROOTDIR>/packages/babel-parser/lib/parser/statement.js:156:10) {
+  code: 'BABEL_PARSE_ERROR',
+  reasonCode: 'MissingSemicolon',
+  loc: Position { line: 2, column: 10, index: 32 },
+  pos: 32,
+  syntaxPlugin: undefined
+}
