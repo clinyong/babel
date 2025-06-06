@@ -3,7 +3,6 @@
 
 
 
-# 2 valid programs produced a parsing error
+# 0 valid programs produced a parsing error
 
-staging/sm/String/make-normalize-generateddata-input.py(default)
-staging/sm/String/make-normalize-generateddata-input.py(strict mode)
+
