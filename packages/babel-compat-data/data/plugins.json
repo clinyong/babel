@@ -7,6 +7,7 @@
     "safari": "17.4",
     "node": "23",
     "ios": "17.4",
+    "rhino": "1.9",
     "electron": "31.0"
   },
   "transform-regexp-modifiers": {
@@ -15,6 +16,7 @@
     "edge": "125",
     "firefox": "132",
     "node": "23",
+    "samsung": "27",
     "electron": "31.0"
   },
   "transform-unicode-sets-regex": {
@@ -26,6 +28,7 @@
     "node": "20",
     "deno": "1.32",
     "ios": "17",
+    "samsung": "23",
     "opera_mobile": "75",
     "electron": "24.0"
   },
@@ -236,6 +239,7 @@
     "deno": "1",
     "ios": "13.4",
     "samsung": "13",
+    "rhino": "1.8",
     "opera_mobile": "57",
     "electron": "8.0"
   },
@@ -249,6 +253,7 @@
     "deno": "1",
     "ios": "13.4",
     "samsung": "13",
+    "rhino": "1.8",
     "opera_mobile": "57",
     "electron": "8.0"
   },
@@ -421,6 +426,7 @@
     "deno": "1",
     "ios": "11.3",
     "samsung": "9",
+    "rhino": "1.9",
     "opera_mobile": "47",
     "electron": "3.0"
   },
@@ -434,6 +440,7 @@
     "deno": "1",
     "ios": "11.3",
     "samsung": "9",
+    "rhino": "1.9",
     "opera_mobile": "47",
     "electron": "3.0"
   },
@@ -447,6 +454,7 @@
     "deno": "1",
     "ios": "11.3",
     "samsung": "9",
+    "rhino": "1.9",
     "opera_mobile": "47",
     "electron": "3.0"
   },
@@ -478,17 +486,18 @@
     "electron": "1.3"
   },
   "transform-template-literals": {
-    "chrome": "41",
-    "opera": "28",
-    "edge": "13",
-    "firefox": "34",
+    "chrome": "62",
+    "opera": "49",
+    "edge": "79",
+    "firefox": "53",
     "safari": "13",
-    "node": "4",
+    "node": "8.10",
     "deno": "1",
     "ios": "13",
-    "samsung": "3.4",
-    "opera_mobile": "28",
-    "electron": "0.21"
+    "samsung": "8",
+    "rhino": "1.9",
+    "opera_mobile": "46",
+    "electron": "3.0"
   },
   "transform-literals": {
     "chrome": "44",
@@ -608,6 +617,7 @@
     "deno": "1",
     "ios": "8",
     "samsung": "4",
+    "rhino": "1.8",
     "opera_mobile": "32",
     "electron": "0.30"
   },
@@ -683,10 +693,10 @@
     "opera": "38",
     "edge": "15",
     "firefox": "53",
-    "safari": "10",
+    "safari": "14.1",
     "node": "6.5",
     "deno": "1",
-    "ios": "10",
+    "ios": "14.5",
     "samsung": "5",
     "opera_mobile": "41",
     "electron": "1.2"
@@ -714,6 +724,7 @@
     "deno": "1",
     "ios": "9",
     "samsung": "5",
+    "rhino": "1.8",
     "opera_mobile": "35",
     "electron": "0.37"
   },

@@ -1,1 +1,1 @@
-let str = "Updated!";
+let str = "Hi :)";

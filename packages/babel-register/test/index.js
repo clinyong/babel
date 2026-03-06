@@ -293,9 +293,12 @@ describe("@babel/register", function () {
           path.dirname(testFileLog),
         );
 
-        expect(output.trim()).toMatchInlineSnapshot(
-          `"It worked! function () {}"`,
-        );
+        expect(output.trim()).toMatchInlineSnapshot(`
+          "It worked! function () {}
+          Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+            npx update-browserslist-db@latest
+            Why you should do it regularly: https://github.com/browserslist/update-db#readme"
+        `);
       });
 
       it("works with the --require flag", async () => {
@@ -304,9 +307,12 @@ describe("@babel/register", function () {
           path.dirname(testFileLog),
         );
 
-        expect(output.trim()).toMatchInlineSnapshot(
-          `"It worked! function () {}"`,
-        );
+        expect(output.trim()).toMatchInlineSnapshot(`
+          "It worked! function () {}
+          Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+            npx update-browserslist-db@latest
+            Why you should do it regularly: https://github.com/browserslist/update-db#readme"
+        `);
       });
 
       it("works with the -r flag in NODE_OPTIONS", async () => {
@@ -320,9 +326,12 @@ describe("@babel/register", function () {
           },
         );
 
-        expect(output.trim()).toMatchInlineSnapshot(
-          `"It worked! function () {}"`,
-        );
+        expect(output.trim()).toMatchInlineSnapshot(`
+          "It worked! function () {}
+          Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+            npx update-browserslist-db@latest
+            Why you should do it regularly: https://github.com/browserslist/update-db#readme"
+        `);
       });
 
       it("works with the --require flag in NODE_OPTIONS", async () => {
@@ -336,9 +345,12 @@ describe("@babel/register", function () {
           },
         );
 
-        expect(output.trim()).toMatchInlineSnapshot(
-          `"It worked! function () {}"`,
-        );
+        expect(output.trim()).toMatchInlineSnapshot(`
+          "It worked! function () {}
+          Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+            npx update-browserslist-db@latest
+            Why you should do it regularly: https://github.com/browserslist/update-db#readme"
+        `);
       });
     });
 

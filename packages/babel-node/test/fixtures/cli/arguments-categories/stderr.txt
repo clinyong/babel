@@ -3,3 +3,6 @@ Warning: --expose-gc-as, --config-file, --extensions are a valid option for Babe
     babel-node --expose_gc -w ./plugin-binary.js --expose-gc-as=gc2 --config-file ./config.json --extensions=.js,.ts ./foo.js bar
   If passing them to the script is intended, you can silence this warning by explicitly using the -- separator before the script name:
     babel-node --expose_gc -w ./plugin-binary.js -- ./foo.js --expose-gc-as=gc2 --config-file ./config.json --extensions=.js,.ts bar
+Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
